@@ -18,15 +18,19 @@ main {
     padding: 100px;
 }
 
-main img {
-    width: 300px;
-}
-
 .fruits1,
 .fruits2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+
+.fruits1 img {
+    width: 200px;
+}
+
+.fruits2 img {
+    width: 300px;
 }
 
 .more-fruits {
