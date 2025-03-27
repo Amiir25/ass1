@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 4em;
+}
+.header-image img{
+    width: 100%;
+}
+
+main {
+    padding: 100px;
+}
+
+main img {
+    width: 300px;
+}
+
+.fruits1,
+.fruits2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.more-fruits {
+    color: blue;
+    margin: 50px;
+    text-align: center;
+    font-size: 4em;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(255, 0, 76);
+    text-decoration: none;
+}
